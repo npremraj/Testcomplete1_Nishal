@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Calculation" key="{1CB0C683-DDA4-49D6-BB92-64E7CB585F22}" path="Calculation.tcKDTest" />
+		<child name="TrialTest1" key="{1FD31C9D-2951-460C-8DD8-5CCE4A736FF5}" path="..\..\TestProject1\KeywordTests\TrialTest1.tcKDTest" />
+		<child name="Open_Calc" key="{B07FF93B-97B2-477E-864E-759A67BEB705}" path="Open_Calc.tcKDTest" />
+		<child name="Close_Calc" key="{D86EFE88-7EC2-4366-BED9-F706B66E8359}" path="Close_Calc.tcKDTest" />
+	</children>
+</Root>

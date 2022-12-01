@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{87852903-FE56-411F-A403-8538785ED14D}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="win32calc" Key="{6C126B63-41A1-4668-BEC6-FD65B6D8F502}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="win32calc" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndCalculator" Key="{6362AB46-9AA0-475D-8158-39C4F3C8A92F}">
+								<Image FileName="-497808062" Left="0" Top="0" Right="228" Bottom="323" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CalcFrame" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Calculator" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="CalcFrame" Key="{473636AE-AED4-4006-AC76-EA7CEAA8D5F1}">
+										<Image FileName="-497808062" Left="8" Top="51" Right="220" Bottom="315" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="CalcFrame" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="page32770" Key="{0CD1FEA0-7DBE-48A3-BF0D-E5BCEB4B65C7}">
+												<Image FileName="-497808062" Left="19" Top="116" Right="209" Bottom="307" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="#32770" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="" />
+													</Property>
+													<Property Name="Index">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="btn" Key="{FA55E841-8BF0-485D-89A7-FD2716FE8AD7}">
+														<Image FileName="-497808062" Left="19" Top="180" Right="53" Bottom="207" />
+														<TypeInfo Item0="{96C9A918-54AC-4540-BD12-F270C74F9672}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="3" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn2" Key="{EF00543F-9008-42F8-AC04-CED94197DDB8}">
+														<Image FileName="344599444" Left="136" Top="276" Right="170" Bottom="303" />
+														<TypeInfo Item0="{96C9A918-54AC-4540-BD12-F270C74F9672}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="23" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btn3" Key="{E9059DC4-7FFF-47D5-8F12-A4020BCFA505}">
+														<Image FileName="1405500809" Left="175" Top="244" Right="209" Bottom="303" />
+														<TypeInfo Item0="{96C9A918-54AC-4540-BD12-F270C74F9672}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="" />
+															</Property>
+															<Property Name="Index">
+																<Value Value="28" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="win32calc" Owner="{6C126B63-41A1-4668-BEC6-FD65B6D8F502}">
+			<Child Name="wndCalculator" Owner="{6362AB46-9AA0-475D-8158-39C4F3C8A92F}">
+				<Child Name="CalcFrame" Owner="{473636AE-AED4-4006-AC76-EA7CEAA8D5F1}">
+					<Child Name="page32770" Owner="{0CD1FEA0-7DBE-48A3-BF0D-E5BCEB4B65C7}">
+						<Child Name="btn" Owner="{FA55E841-8BF0-485D-89A7-FD2716FE8AD7}" />
+						<Child Name="btn2" Owner="{EF00543F-9008-42F8-AC04-CED94197DDB8}" />
+						<Child Name="btn3" Owner="{E9059DC4-7FFF-47D5-8F12-A4020BCFA505}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
